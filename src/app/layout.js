@@ -1,6 +1,7 @@
 import { Hahmlet } from 'next/font/google'; // 앞에 숫자면 언더바(_)를 추가하고 2개 단어는 사이에 언더버(_) 추가
 import './globals.css';
 import Header from '@/components/common/Header';
+import Footer from '@/components/common/Footer';
 
 const hahmlet = Hahmlet({
     variable: '--font-hahmlet', // 가변(variable) 폰트일 경우 선언 (100-900 굵기 지원)
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
             <body className={`${hahmlet.variable} antialiased`}>
                 <Header />
                 {children}
+                <Footer />
             </body>
         </html>
     );
