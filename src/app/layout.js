@@ -17,8 +17,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
     return (
-        <html lang='en'>
-            <body className={`${hahmlet.variable} antialiased`}>
+        <html lang="en">
+            <body
+                className={`${hahmlet.variable} antialiased`}
+                style={{ width: '100%' }}
+            >
                 <Header />
                 {children}
                 <Footer />

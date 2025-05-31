@@ -120,10 +120,20 @@ const FacilitiesPage = () => {
                     />
                 </div>
                 <div className="relative z-10 text-center text-white px-4">
-                    <h1 className="text-5xl md:text-6xl font-bold mb-6">
+                    <h1
+                        className="text-5xl md:text-6xl font-bold mb-6"
+                        data-aos="zoom-in"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out"
+                    >
                         Our Facilities
                     </h1>
-                    <p className="text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed">
+                    <p
+                        className="text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed"
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out"
+                    >
                         leading-relaxed : 줄간격을 넓게 해준다. lorem ipsum
                         dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna
